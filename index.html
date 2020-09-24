@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Shopping Cart</h1>
+
+<div class="shopping-cart">
+
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+  
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
+  <body>
+  <div class="product">
+    <div class="product-image">
+      <img src="https://www.origines-parfums.com/pub/media/catalog/product/cache/08d6de92c59b7c096c452692be2899d6/4/1/410142602a.jpg">
+    </div>
+    
+    <div class="product-price">220</div>
+
+    
+      <button class="remove-product"><button onclick="addToCart()">+</button>
+      <button onclick="removeFromCart()">-</button>
+       
+      
+    </div>
+   
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="https://www.lancome.fr/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-lac-master-catalog/default/dwf6cb7b65/images/PACKSHOTS/FRAGRANCE/TRESOR/072025_Tresor/3147758034905_Tresor_Eau_de_parfum_Etui.jpg?sw=650&sh=650&sm=fit&sfrm=png&q=70">
+    </div>
+    
+    <div class="product-price">150</div>
+   
+    <button onclick="addToCart()">+</button>
+    <button onclick="removeFromCart()">-</button>
+    </div>
+ 
+      
+
+
+</div>
+<p id="total"> Total = <span id="valeur_totale"></span></p>
+<button id="demo" onclick="myFunction()">Calculer la somme totale.</button>
+</body>
