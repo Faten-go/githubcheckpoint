@@ -1,0 +1,30 @@
+ALGORITHM table
+
+VAR
+
+i, j, n: INTEGER ;
+set1, set2 : array;
+sum1, sum2 : integer :=0;
+
+
+BEGIN
+
+for i from 1 to n do
+for j from 1 to n do
+if (set1[i] <> set2[j] );
+then 
+sum1:=set1[i]+set2[j];
+
+END_IF
+
+END_FOR
+
+for i from 1 to n do
+for j from 1 to n do
+  if (set1[i] == set2[j]);
+  then sum2:=set1[i]+set2[j];
+
+END_IF
+
+END_FOR
+END
