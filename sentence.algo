@@ -1,0 +1,42 @@
+ALGORITHM SENTENCE
+
+VAR
+
+i : INTEGER ;
+str : STRING;
+sum1, sum2 : integer :=0;
+total: integer;
+
+BEGIN
+
+read (str)
+// length of the sentence
+total=str.length(str)
+
+ // number of word
+
+for i from 1 to length((str)):   
+ 
+  if str[i]=' ' ;
+   then 
+       sum1 := sum1 + 1;  
+    print("Total number of word is"sum1 );  
+ 
+END_IF
+
+END_FOR
+
+ // number of vowel 
+
+for i from 1 to length((str)):   
+str = str.lower();  
+  if str[i] in ('a',"e","i","o","u") ;
+   then 
+       sum2 := sum2 + 1;  
+    print("Total number of vowel is"sum2 );  
+ 
+END_IF
+
+END_FOR
+
+END
