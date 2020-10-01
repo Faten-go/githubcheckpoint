@@ -1,0 +1,66 @@
+PROCEDURE dot_product (v1, v2: array)
+
+VAR
+
+ ps : integer:=0   
+ i, n : integer
+
+BEGIN
+for i from 1 to n do
+read(v1[i]):
+END_FOR
+
+for i from 1 to n do
+read(v2[i]):
+END_FOR
+
+for i from 1 to n do
+ps:= v1[i]. v2 [i];
+END_FOR
+
+END
+
+
+algorithme orthogonal
+
+VAR 
+i: integer
+
+ BEGIN
+for i from 1 to n do
+if 
+(dot_product (v1,v2)==0 )
+then
+print ( 'v1 and v2 are orthogonal' )
+END_IF
+
+ END
+
+
+
+
+FUNCTION dot_product (v1,v2) : integer
+VAR
+ ps : integer:=0   
+ i, n : integer
+
+BEGIN
+   for i from 1 to n do
+read(v1[i]):
+END_FOR
+
+for i from 1 to n do
+read(v2[i]):
+END_FOR
+
+for i from 1 to n do
+ps:= v1[i]. v2 [i];
+END_FOR 
+    RETURN ps ;
+END
+
+
+
+
+
+
